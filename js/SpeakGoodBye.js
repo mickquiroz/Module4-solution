@@ -23,6 +23,7 @@ byeSpeaker.name = "";
 byeSpeaker.speak = function () {
   var speakWord = "Good Bye";
   console.log(speakWord + " " + byeSpeaker.name);
+  document.write(speakWord + " " + byeSpeaker.name+ "<br>");
 }
 
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
